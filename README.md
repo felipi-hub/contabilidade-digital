@@ -12,6 +12,7 @@ Aplicação web construída com Angular 17, voltada para facilitar a gestão con
 - Tela com **tipos de serviços contábeis**
 - Tela de **clientes**
 - Tela de **contato**
+- Fomulario **funcional integrado ao Formspree para envio de mensagens por e-mail**
 - Estrutura com **rotas Angular**
 - Uso de **modais personalizados**
 
