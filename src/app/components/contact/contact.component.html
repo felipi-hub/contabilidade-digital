@@ -1,0 +1,54 @@
+<div class="container col-xxl-8 px-4  conteiner-img body">
+  <div class="row  align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6 imagem-one">
+      <img src="./assets/imgfree.png" class="custom-image  mx-lg-auto " style="max-width: 100%;
+      height: auto;
+      padding: 112px 10px;" alt="Bootstrap Themes" width="700" height="600" loading="eager">
+    </div>
+    <div class="col-lg-6 ">
+      <form class=" " style="margin-top: 75px;">
+        <mat-form-field class="example-full-width">
+          <mat-label>Nome</mat-label>
+          <input type="text" matInput [formControl]="nameFormControl" [errorStateMatcher]="matcher"
+            placeholder="Digite seu Nome">
+          <mat-hint>Errors appear instantly!</mat-hint>
+          @if (nameFormControl.hasError('name') && !nameFormControl.hasError('required')) {
+          <mat-error>Please enter a valid Name address</mat-error>
+          }
+          @if (nameFormControl.hasError('required')) {
+          <mat-error>Name is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+            placeholder="Ex. pat@example.com">
+          <mat-hint>Errors appear instantly!</mat-hint>
+          @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+          <mat-error>Please enter a valid email address</mat-error>
+          }
+          @if (emailFormControl.hasError('required')) {
+          <mat-error>Email is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Telefone</mat-label>
+          <input type="tel" matInput [formControl]="phoneFormControl" [errorStateMatcher]="matcher"
+            placeholder="(00)00000-0000">
+          <mat-hint>Errors appear instantly!</mat-hint>
+          @if (phoneFormControl.hasError('telefone') && !phoneFormControl.hasError('required')) {
+          <mat-error>Please enter a valid email address</mat-error>
+          }
+          @if (phoneFormControl.hasError('required')) {
+          <mat-error>Telefone is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+      </form>
+      <div style="display: flex; gap: 16px;margin-left:25px ;">
+        <button mat-raised-button color="primary" (click)="saveContact()">Salvar</button>
+        <button mat-raised-button color="primary" (click)="clearForm()">Limpar</button>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+/* Certifique-se de que o conteúdo ocupe o restante da tela */
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* A altura mínima da tela será a altura total da viewport */
+}
+
+/* Container principal (onde o conteúdo dinâmico será renderizado) */
+.app-container {
+    flex: 1;
+    /* Permite que o conteúdo dentro do router-outlet ocupe o restante da altura */
+    padding-bottom: 100px;
+    /* Espaço reservado para o footer */
+}
+
+/* Estilos para o Footer fixo */
+app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    /* Altura fixa para o footer */
+    background-color: #f8f9fa;
+    z-index: 999;
+    /* Fica acima de outros elementos */
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Outros estilos para o app-header e conteúdo, conforme necessário */

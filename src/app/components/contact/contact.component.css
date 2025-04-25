@@ -1,0 +1,55 @@
+/* Reset básico para evitar comportamentos inesperados */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 100px;
+  /* Ajuste o valor conforme necessário */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+@media (max-width: 600px) {}
+
+.example-full-width {
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.mat-form-field {
+  border-radius: 10px;
+}
+
+.mat-form-field-underline {
+  display: none;
+}
+
+.mat-form-field-wrapper {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.col-lg-6 {
+  padding-top: 75px;
+  position: relative;
+  /* Ou ajuste conforme necessário */
+}
+
+form {
+  margin-top: 20px;
+  /* Ajuste para evitar sobreposição */
+}

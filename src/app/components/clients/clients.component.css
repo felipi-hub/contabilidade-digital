@@ -1,0 +1,11 @@
+.clients {
+  padding: 16%;
+  
+  
+}
+:host {
+  width: 100%;
+  height: 100px; /* Defina a altura do cabeçalho */
+  background-color: #007bff; /* Cor de fundo do cabeçalho */
+  margin-top: 20%;
+}

@@ -1,0 +1,35 @@
+<section class="form-section">
+    <div class="form-header">
+        <h2 class="fs-form-title">
+            <i class="fa-solid fa-briefcase" style="margin-right: 0.5rem; color: var(--color-primary);"></i>
+            Abra sua empresa
+
+        </h2>
+        <p class="form-subtitle">Preencha seus dados e entraremos em contato</p>
+    </div>
+    <form action="https://formspree.io/f/xpwdzgwe" class="fs-form" target="_top" method="POST">
+        <div class="fs-field">
+            <label class="fs-label" for="name">Nome Completo</label>
+            <input class="fs-input" id="name" name="name" required />
+        </div>
+        <div class="fs-field">
+            <label class="fs-label" for="email">Email </label>
+            <input class="fs-input" id="email" name="email" required />
+        </div>
+        <div class="fs-field">
+            <label class="fs-label" for="number">Número/Telefone</label>
+            <input class="fs-input" id="number" name="number" />
+        </div>
+        <div class="fs-field">
+            <label class="fs-label" for="cnpj">CNPJ</label>
+            <input class="fs-input" id="cnpj" name="cnpj" />
+        </div>
+        <div class="fs-field">
+            <label class="fs-label" for="message">Mensagem</label>
+            <textarea class="fs-textarea" id="message" name="message" required></textarea>
+        </div>
+        <div class="fs-button-group">
+            <button class="fs-button" type="submit">Enviar</button>
+        </div>
+    </form>
+</section>
