@@ -1,27 +1,35 @@
-# Lrcontt
+# 📊 Contabilidade Digital
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+🚧 *Projeto em desenvolvimento* 🚧
 
-## Development server
+Aplicação web construída com Angular 17, voltada para facilitar a gestão contábil. O objetivo é oferecer um sistema simples e funcional para abertura e fechamento de empresas, além de apresentar os serviços contábeis oferecidos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## ✨ Funcionalidades atuais
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Tela de **abertura e fechamento de empresas**
+- Tela com **tipos de serviços contábeis**
+- Tela de **clientes**
+- Tela de **contato**
+- Estrutura com **rotas Angular**
+- Uso de **modais personalizados**
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Tecnologias utilizadas
 
-## Running unit tests
+- Angular 17
+- TypeScript
+- HTML5
+- CSS3
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🚀 Como executar o projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/felipi-hub/contabilidade-digital.git
+cd contabilidade-digital
