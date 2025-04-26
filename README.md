@@ -33,4 +33,4 @@ Aplicação web construída com Angular 17, voltada para facilitar a gestão con
 
 ```bash
 git clone https://github.com/felipi-hub/contabilidade-digital.git
-cd contabilidade-digital
+cd lrcontt
